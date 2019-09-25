@@ -1,0 +1,127 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{natbib}
+\usepackage{latexsym}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{amsthm}
+\usepackage{amstext}
+\usepackage{lineno}			
+\usepackage[english]{babel}
+\usepackage{multicol}
+\usepackage{ragged2e}
+
+\DeclareMathOperator*\mslim{ms-lim}
+\usepackage[printwatermark]{xwatermark}
+\usepackage{xcolor}
+\newwatermark[allpages,color=lightgray!50, angle=45,scale=3,xpos=0,ypos=0]{DRAFT}
+% Add and remove packages as necessary for your manuscript.
+\linespread{1.66} % NEED to UNCOMMENT
+% All text should be double-spaced
+% with occasional exceptions for tables. 
+\raggedright
+\setlength{\parindent}{0.5in}
+
+\setcounter{secnumdepth}{0}
+\pagestyle{empty}
+
+\renewcommand{\section}[1]{%
+\bigskip
+\begin{center}
+\begin{Large}
+\normalfont\scshape #1
+\medskip
+\end{Large}
+\end{center}}
+
+\renewcommand{\subsection}[1]{%
+\bigskip
+\begin{center}
+\begin{large}
+\normalfont\itshape #1
+\end{large}
+\end{center}}
+
+\renewcommand{\subsubsection}[1]{%
+\vspace{2ex}
+\noindent
+\textit{#1.}---}
+
+\renewcommand{\tableofcontents}{}
+    
+\bibpunct{(}{)}{;}{a}{}{,}  % this is a citation format command for natbib
+
+\begin{document}
+\begin{flushright}
+Version dated: \today
+\end{flushright}
+\bigskip
+\noindent RH: PHYLOGENETIC MULTIPLE IMPUTATION
+\bigskip
+\medskip
+\begin{center}
+% Insert your title:
+\noindent{\Large \bf NEED A TITLE HERE}
+\bigskip
+\linebreak
+\noindent {\normalsize \sc Patrik Drhlik\textsuperscript{1,2} and Simon P. Blomberg\textsuperscript{1}}\\ % need to fix accent on Drhlik
+\noindent {\small
+\textit{\textsuperscript{1}School of Biological Sciences, University of Queensland, St. Lucia, Queensland, 4072, Australia.}\\ E-mail: s.blomberg1@uq.edu.au}
+\end{center}
+\medskip
+\begin{center}
+\noindent{\small
+\textit{\textsuperscript{2} Patrik's address in Czech}\\E-mail: patrik.drhlik@tul.cz}
+\end{center}
+
+\medskip
+%\vspace{1in}
+
+\linenumbers
+\justify
+\subsubsection{Abstract}Abstract goes here.\\
+\noindent (Keywords: Keywords here)\\
+\newpage
+% \begin{multicols}{2}
+
+
+\section{Introduction}
+
+This is what the citations will look like \citep{MIdiagnostics,van07,Buuren2000}. \citet{miRubin} is an in-text citation.
+
+\section{Methods}
+\section{Results} 
+\section{Discussion}
+
+
+\section{Funding}
+This research was supported by the University of Queensland and Australian Research Council grant...
+
+\section{Acknowledgments}
+Thanks to S Rathnayake and ???? for insightful comments on previous drafts of this manuscript.
+
+\renewcommand{\refname}{
+\bigskip
+\begin{center}
+\begin{Large}
+\normalfont\scshape References
+\medskip
+\end{Large}
+\end{center}
+}
+
+\bibliographystyle{mee}
+\bibliography{MIreferences}
+
+\appendix
+\renewcommand{\theequation}{A1.\arabic{equation}}
+\setcounter{equation}{0}
+\section{Appendix 1}
+
+
+\end{document}

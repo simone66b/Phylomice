@@ -1,0 +1,25 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Abayomi \emph{et~al.}(2008)Abayomi, Gelman \& Levy}]{MIdiagnostics}
+Abayomi, K., Gelman, A. \& Levy, M. (2008) Diagnostics for multivariate
+  imputations.
+\newblock \emph{Journal of the Royal Statistical Society Series C Appl
+  Statist}, \textbf{57}, 273--291.
+
+\bibitem[{Rubin(1996)}]{miRubin}
+Rubin, D.B. (1996) Multiple imputation after 18+ years.
+\newblock \emph{Journal of the American Statistical Association}, \textbf{91},
+  473--489.
+
+\bibitem[{van Buuren \& Oudshoorn(2000)}]{Buuren2000}
+van Buuren, S. \& Oudshoorn, C.G.M. (2000) Multivariate imputation by chained
+  equations.
+\newblock Technical report.
+
+\bibitem[{van Buuren(2007)}]{van07}
+van Buuren, S. (2007) Multiple imputation of discrete and continuous data by
+  fully conditional specification.
+\newblock \emph{Statistical methods in medical research}, \textbf{16}, 219--42.
+
+\end{thebibliography}
