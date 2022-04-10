@@ -3,6 +3,7 @@ Type: Package
 Title: Multiple imputation with phylogenetic information.
 Version: 0.0.0.9013
 Authors@R: person("Patrik", "Drhlik", email = "patrik.drhlik@gmail.com", role = c("aut", "cre"))
+person("Simone", "Blomberg", email="s.blomberg1@uq.edu.au", role = "aut")
 Description: This package includes methods that allow doing multiple imputation
     with phylogenetic information.
 License: GPL-3
@@ -14,4 +15,4 @@ RoxygenNote: 5.0.1
 NeedsCompilation: yes
 Packaged: 2021-09-10 07:31:10 UTC; simoneb
 Author: Patrik Drhlik [aut, cre]
-Maintainer: Patrik Drhlik <patrik.drhlik@gmail.com>
+Maintainer: Simone Blomberg <s.blomberg1@uq.edu.au>
