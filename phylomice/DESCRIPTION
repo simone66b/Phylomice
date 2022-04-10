@@ -1,18 +1,17 @@
 Package: phylomice
 Type: Package
 Title: Multiple imputation with phylogenetic information.
-Version: 0.0.0.9001
+Version: 0.0.0.9013
 Authors@R: person("Patrik", "Drhlik", email = "patrik.drhlik@gmail.com", role = c("aut", "cre"))
 Description: This package includes methods that allow doing multiple imputation
     with phylogenetic information.
 License: GPL-3
-LazyData: TRUE
 Imports: ape (>= 3.4), mice (>= 2.25), Rcpp (>= 0.12.4), RcppArmadillo
         (>= 0.4.200.0)
 LinkingTo: Rcpp, RcppArmadillo
 Depends: mice, RcppArmadillo
 RoxygenNote: 5.0.1
 NeedsCompilation: yes
-Packaged: 2018-11-20 05:47:38 UTC; simonb
+Packaged: 2021-09-10 07:31:10 UTC; simoneb
 Author: Patrik Drhlik [aut, cre]
 Maintainer: Patrik Drhlik <patrik.drhlik@gmail.com>
