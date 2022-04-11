@@ -2,7 +2,8 @@ Package: phylomice
 Type: Package
 Title: Multiple imputation with phylogenetic information.
 Version: 0.0.0.9013
-Authors@R: c(person(given = "Patrik", 
+Authors@R: 
+c(person(given = "Patrik", 
 family = "Drhlik", 
 email = "patrik.drhlik@gmail.com", 
 role = c("aut", "cre")),
