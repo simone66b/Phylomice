@@ -3,10 +3,7 @@ Type: Package
 Title: Multiple imputation with phylogenetic information.
 Version: 0.0.0.9013
 Authors@R: 
-person(given = "Patrik",
-	family = "Drhlik",
-	email = "patrik.drhlik@gmail.com",
-	role = c("aut", "cre"))
+person("Patrik", "Drhlik",  email = "patrik.drhlik@gmail.com",  role = c("aut", "cre"))
 Description: This package includes methods that allow doing multiple imputation
     with phylogenetic information.
 License: GPL-3
