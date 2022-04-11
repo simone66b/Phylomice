@@ -2,7 +2,7 @@ Package: phylomice
 Type: Package
 Title: Multiple imputation with phylogenetic information.
 Version: 0.0.0.9013
-Authors@R: c(person("Patrik", "Drhlik",  email = "patrik.drhlik@gmail.com",  role = c("aut", "cre")),person("Simone" "Blomberg", email = "s.blomberg1@uq.edu.au", role = "aut"))
+Authors@R: c(person("Patrik", "Drhlik",  email = "patrik.drhlik@gmail.com",  role = c("aut", "cre")),person("Simone", "Blomberg", email = "s.blomberg1@uq.edu.au", role = "aut"))
 Description: This package includes methods that allow doing multiple imputation
     with phylogenetic information.
 License: GPL-3
