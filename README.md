@@ -6,7 +6,7 @@ You should be familiar with the mice package to use this one.
 ## Installation
 You can install the package using [devtools](https://github.com/hadley/devtools):
 ```
-devtools::install_github("pdrhlik/phylomice")
+devtools::install_github("simone66b/Phylomice/phylomice")
 ```
 ### phnorm
 Imputes univariate continuous missing data using the generalized least square approach. It is based on the **mice.impute.norm** method in **mice** package.
