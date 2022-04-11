@@ -11,7 +11,6 @@ person(given = "Simone",
 	family = "Blomberg",
 	email = "s.blomberg1@uq.edu.au",
 	role = "aut"))
-
 Description: This package includes methods that allow doing multiple imputation
     with phylogenetic information.
 License: GPL-3
